@@ -12,11 +12,14 @@ The objective of this project was to simulate user provision and directory manag
 * Management Interface: Azure Portal (Web Console)
 
 # Steps Executed
-Directory Navigation: Accessed the Microsoft Azure Portal and navigated to the Microsoft Entra ID service (indicated by the notification banner: "Azure Active Directory is now Microsoft Entra ID").
+## 1-Directory Navigation
+Accessed the Microsoft Azure Portal and navigated to the Microsoft Entra ID service (indicated by the notification banner: "Azure Active Directory is now Microsoft Entra ID").
 
-User Management Interface: Opened the Users | All users repository view within the active tenant directory.
+## 2-User Management Interface
+Opened the Users | All users repository view within the active tenant directory.
 
-Identity Provisioning: Provisioned four distinct internal user profiles. For each profile, configured standard parameters including Display Name, User Principal Name (UPN), and User Type (set as native 'Member' accounts).
+## 3-Identity Provisioning
+Provisioned four distinct internal user profiles. For each profile, configured standard parameters including Display Name, User Principal Name (UPN), and User Type (set as native 'Member' accounts).
 
 Identities created:
 
@@ -28,14 +31,15 @@ Eric Path
 
 Johana Smith
 
-Attributes Verification: Audited the user table configuration to verify synchronization status (On-premises sync: No), role designations (Is Agent: No), and ensured that all records populated correctly across the tenant database with 4 active users found.
+## 4-Attributes Verification
+Audited the user table configuration to verify synchronization status (On-premises sync: No), role designations (Is Agent: No), and ensured that all records populated correctly across the tenant database with 4 active users found.
 
 # Key Takeaways
-Centralized Identity Governance: Understood how cloud-native directories manage the identity boundary, providing a single plane of glass to audit, add, or offboard user objects efficiently.
+* Centralized Identity Governance: Understood how cloud-native directories manage the identity boundary, providing a single plane of glass to audit, add, or offboard user objects efficiently.
 
-Access Control Foundations: Provisioning specific, individual accounts rather than using shared credentials establishes the foundation for enforcing the Principle of Least Privilege (PoLP) and ensures robust Accountability for future audit logs and sign-in telemetry.
+* Access Control Foundations: Provisioning specific, individual accounts rather than using shared credentials establishes the foundation for enforcing the Principle of Least Privilege (PoLP) and ensures robust Accountability for future audit logs and sign-in telemetry.
 
-Transition awareness: Noted the operational branding transition from Azure AD to Microsoft Entra ID, aligning technical administrative skills with current industry frameworks.
+* Transition awareness: Noted the operational branding transition from Azure AD to Microsoft Entra ID, aligning technical administrative skills with current industry frameworks.
 
 # Project Documentation
 
